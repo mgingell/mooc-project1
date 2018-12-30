@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<h2>User already exists!</h2>
+<form th:action="@{/userview}" method="POST">
+		    <input type="submit" value="Quit"/>
+		</form>
+<form th:action="@{/adduser}" method="POST">
+		    <input type="submit" value="Retry"/>
+		</form>
+		<br/>
+</body>
+</html>
